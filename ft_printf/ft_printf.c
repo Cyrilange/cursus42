@@ -64,8 +64,8 @@ int main() {
     // Comparaison des résultats de ft_printf et printf
     printf("Comparaison des résultats de ft_printf et printf:\n\n");
 
-    printf("ft_printf Integer: %d\n", ft_printf("Integer: %d\n", 12345));
-    printf("printf Integer: %d\n\n", printf("Integer: %d\n", 12345));
+    printf("ft_printf Integer: %d\n", ft_printf("Integer: %d\n", -12345));
+    printf("printf Integer: %d\n\n", printf("Integer: %d\n", -12345));
 
     printf("ft_printf Unsigned: %d\n", ft_printf("Unsigned: %u\n", 12345U));
     printf("printf Unsigned: %d\n\n", printf("Unsigned: %u\n", 12345U));

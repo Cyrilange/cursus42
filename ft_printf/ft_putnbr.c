@@ -4,7 +4,7 @@
 
 int ft_putnbr(int num)
 {
-    int len = 0; // Pour compter le nombre de caractères imprimés
+    int len = 0;
 
     if (num == -2147483648)
     {
@@ -15,7 +15,7 @@ int ft_putnbr(int num)
     else if (num < 0)
     {
         len += ft_putchar('-');
-        num *= -1;
+        num = - num;
     }
     if (num >= 10)
     {
