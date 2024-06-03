@@ -64,6 +64,8 @@ int main() {
     // Comparaison des résultats de ft_printf et printf
     printf("Comparaison des résultats de ft_printf et printf:\n\n");
 
+
+
     printf("ft_printf Integer: %d\n", ft_printf("Integer: %d\n", -12345));
     printf("printf Integer: %d\n\n", printf("Integer: %d\n", -12345));
 
@@ -81,6 +83,9 @@ int main() {
 
     printf("ft_printf String: %d\n", ft_printf("String: %s\n", "Hello, world!"));
     printf("printf String: %d\n\n", printf("String: %s\n", "Hello, world!"));
+
+    printf("ft_printf String: %d\n", ft_printf("String: %s\n", ""));
+    printf("printf String: %d\n\n", printf("String: %s\n", ""));
 
     printf("ft_printf Pointer: %d\n", ft_printf("Pointer: %p\n", ptr));
     printf("printf Pointer: %d\n\n", printf("Pointer: %p\n", ptr));
